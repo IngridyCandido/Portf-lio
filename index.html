@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Ingridy Candido, desenvolvedora web em formação. Conheça meus projetos e minha trajetória.">
+  <title>Ingridy Candido | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="Ingridy Candido - início">Ingridy<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a class="home-link" href="#inicio" aria-label="Início">⌂</a>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#formacao">Formação</a>
+        <a class="button button-green nav-contact" href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-dark">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Olá, eu sou a</p>
+          <h1>Ingridy!</h1>
+          <p class="hero-description">Desenvolvedora web em formação, apaixonada por tecnologia e pelo desenvolvimento de soluções digitais. Aqui você pode conhecer minha trajetória, meus projetos e as tecnologias que fazem parte da minha jornada.</p>
+          <p class="hero-tags">Front-end <span>•</span> Back-end</p>
+          <a class="button button-green" href="#contato">Vamos conversar! <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" aria-label="Ilustração de desenvolvimento web">
+          <div class="art-orbit"><span class="art-symbol">&lt;/&gt;</span><span class="art-symbol second">{ }</span></div>
+          <div class="art-window">
+            <div class="window-bar"><i></i><i></i><i></i></div>
+            <div class="window-content"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          </div>
+          <div class="art-laptop"><div class="laptop-screen">✦</div><div class="laptop-base"></div></div>
+          <div class="art-caption">criando ideias<br>em código</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-light section" id="sobre">
+      <div class="container">
+        <h2 class="section-title">Sobre mim</h2>
+        <h3 class="section-subtitle">Muito prazer, eu sou a Ingridy!</h3>
+        <p class="about-text">Sou estudante de Tecnologia em Sistemas para Internet no IFRN e desenvolvedora web em formação. Tenho interesse em criar soluções digitais úteis, acessíveis e organizadas, aprendendo tanto o desenvolvimento front-end quanto o back-end.</p>
+        <p class="about-text">Estou construindo minha trajetória por meio de projetos acadêmicos e pessoais, explorando tecnologias, boas práticas e trabalho em equipe. Este portfólio reúne alguns projetos e conhecimentos que venho desenvolvendo.</p>
+        <div class="timeline" aria-label="Minha trajetória">
+          <div class="timeline-line"></div>
+          <article class="timeline-item"><span class="timeline-dot"></span><small>2016 — 2019</small><h4>Técnico Integrado</h4><p>Formação técnica integrada ao ensino médio.</p></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><small>2020 — 2023</small><h4>Fisioterapia</h4><p>Experiência acadêmica na área da saúde e cuidado com pessoas.</p></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><small>2025 — atual</small><h4>Tecnologia</h4><p>Graduação em Sistemas para Internet e desenvolvimento de projetos.</p></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><small>Em andamento</small><h4>Portfólio</h4><p>Prática contínua com aplicações web, APIs e automação.</p></article>
+        </div>
+
+        <h3 class="skills-heading">Tecnologias que estou estudando e praticando:</h3>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">🖥️</div><h4>Front-end</h4><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Vue.js</li><li>Bootstrap</li></ul></article>
+          <article class="skill-card"><div class="skill-icon">⌨️</div><h4>Back-end</h4><ul><li>Node.js</li><li>NestJS</li><li>TypeScript</li><li>APIs REST</li></ul></article>
+          <article class="skill-card"><div class="skill-icon">🧩</div><h4>Linguagens</h4><ul><li>JavaScript</li><li>TypeScript</li><li>Python</li><li>C#</li><li>Shell Script</li></ul></article>
+          <article class="skill-card"><div class="skill-icon">🗄️</div><h4>Banco de dados</h4><ul><li>Modelagem</li><li>SQL</li><li>PostgreSQL</li></ul></article>
+          <article class="skill-card"><div class="skill-icon">🛠️</div><h4>Ferramentas</h4><ul><li>VS Code</li><li>Git e GitHub</li><li>Linux / Ubuntu</li><li>Docker</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-dark section" id="projetos">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+        <p class="section-lead">Confira alguns projetos que desenvolvi ao longo da minha trajetória.</p>
+        <div class="project-carousel">
+          <button class="carousel-arrow previous" id="project-prev" aria-label="Projeto anterior">‹</button>
+          <article class="project-card" aria-live="polite">
+            <p class="project-count" id="project-count">01 / 03</p>
+            <h3 id="project-title">Controle Financeiro</h3>
+            <div class="project-preview" id="project-preview" aria-hidden="true">
+              <div class="preview-panel preview-login"><span class="preview-brand">controle<span>+</span></span><b>Tenha controle sobre<br>cada decisão.</b><i></i><i></i><i></i></div>
+              <div class="preview-panel preview-form"><b>Bem-vinda de volta!</b><i></i><i></i><i></i><span>Entrar</span></div>
+              <div class="preview-panel preview-dashboard"><div class="preview-side"></div><div class="preview-stats"><i></i><i></i><i></i><i></i></div><div class="preview-chart"></div></div>
+            </div>
+            <p class="project-description" id="project-description">Aplicação web para organização de finanças pessoais. Permite acompanhar contas, receitas, despesas, transferências, cartões, faturas, metas, recorrências, orçamentos e relatórios em uma única interface.</p>
+            <p class="project-tech" id="project-tech">Vue.js · TypeScript · NestJS · PostgreSQL</p>
+            <a class="button button-green project-link" id="project-link" href="https://web-controle-financeiro.onrender.com/login?redirecionar=/dashboard" target="_blank" rel="noopener noreferrer">Ver projeto ↗</a>
+          </article>
+          <button class="carousel-arrow next" id="project-next" aria-label="Próximo projeto">›</button>
+        </div>
+        <p class="github-note">Mais projetos e códigos-fonte estão disponíveis no meu <a href="https://github.com/IngridyCandido" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+      </div>
+    </section>
+
+    <section class="education section-light section" id="formacao">
+      <div class="container">
+        <h2 class="section-title">Formação</h2>
+        <div class="education-grid">
+          <article class="education-card"><span class="education-icon">🎓</span><h3>Técnico Integrado<br>em Alimentos</h3><p>IFRN</p><small>2016 — 2019</small><div class="education-art">✦ ✧ ✦</div></article>
+          <article class="education-card"><span class="education-icon">📚</span><h3>Bacharelado em<br>Fisioterapia</h3><p>UFRN + Anhanguera</p><small>2020 — 2023</small><div class="education-art">❋ ♡ ❋</div></article>
+          <article class="education-card"><span class="education-icon">💻</span><h3>Tecnólogo em<br>Sistemas para Internet</h3><p>IFRN</p><small>2025 — 2027</small><div class="education-art"> &lt;/&gt; </div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-dark section" id="contato">
+      <div class="container">
+        <h2 class="section-title">Vamos conversar?</h2>
+        <div class="contact-grid">
+          <form class="contact-form" id="contact-form">
+            <h3>Envie uma mensagem</h3>
+            <label for="nome">Seu nome:</label>
+            <input id="nome" name="nome" autocomplete="name" required maxlength="100">
+            <label for="email">Seu e-mail:</label>
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="150">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required maxlength="2000"></textarea>
+            <button class="button button-purple" type="submit">Enviar mensagem</button>
+            <p class="form-note">O envio abrirá seu aplicativo de e-mail.</p>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+          <div class="contact-info">
+            <p class="contact-intro">Estou aberta a oportunidades, projetos e conexões na área de tecnologia.</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/IngridyCandido" target="_blank" rel="noopener noreferrer">Ingridy Candido</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ingridy-candido-a71256262" target="_blank" rel="noopener noreferrer">Ingridy Candido</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/ingridy_luzzia" target="_blank" rel="noopener noreferrer">@ingridy_luzzia</a></p>
+            <p><strong>E-mail:</strong> <a href="mailto:ingridyluzzia@gmail.com">ingridyluzzia@gmail.com</a></p>
+            <a class="button button-green" href="mailto:ingridyluzzia@gmail.com">Entre em contato ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ingridy Candido. Todos os direitos reservados.</p>
+    <div><a href="#contato">Contato</a><span> · </span><a href="#inicio">Voltar ao topo ↑</a></div>
+  </footer>
+</body>
+</html>
