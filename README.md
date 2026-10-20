@@ -2,6 +2,8 @@
 
 Portfólio responsivo feito com **HTML, CSS e JavaScript puro**, sem framework e sem etapa de compilação.
 
+**Acesse o portfólio:** [ingridycandido.github.io/Portf-lio](https://ingridycandido.github.io/Portf-lio/)
+
 ## Estrutura
 
 ```text
