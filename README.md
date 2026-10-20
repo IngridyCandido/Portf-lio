@@ -4,6 +4,8 @@ Portfólio responsivo feito com **HTML, CSS e JavaScript puro**, sem framework e
 
 **Acesse o portfólio:** [ingridycandido.github.io/Portf-lio](https://ingridycandido.github.io/Portf-lio/)
 
+**Deploy na Netlify:** [monumental-dolphin-1f18c0.netlify.app](https://monumental-dolphin-1f18c0.netlify.app/)
+
 ## Estrutura
 
 ```text
